@@ -1,4 +1,4 @@
-/* General Reset */
+ /* General Reset */
 * {
     margin: 0;
     padding: 0;
@@ -34,14 +34,14 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    color: #ff9800;
+    color: rgb(146, 138, 138);
 }
 
 /* Intro Section */
 #intro {
     height: 100vh;
-    background: linear-gradient(to right, #ff9800, #f44336);
-    color: #fff;
+    background: linear-gradient(to right, rgb(198, 191, 191), rgb(88, 84, 84));
+    color: f4f4f4;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -69,13 +69,15 @@ header nav ul li a:hover {
 }
 
 .btn:hover {
-    background: #ff9800;
-}
+    background: rgb(146, 138, 138);
+} ;
+
 
 /* Projects Section */
 #projects {
     padding: 50px;
     text-align: center;
+    margin: 10px;
 }
 
 .project {
@@ -114,11 +116,6 @@ header nav ul li a:hover {
     margin: 5px auto;
 }
 
-.skill-bar span {
-    display: block;
-    height: 100%;
-    background: #ff9800;
-}
 
 /* Footer */
 footer {
@@ -128,23 +125,22 @@ footer {
     padding: 20px 0;
 }
 
-.progress-bar {
-    width: 90%;
-}
 
 #projects .project {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     margin-bottom: 30px;
-    border: 1px solid #ddd;
+    border: 1px solid black;
     border-radius: 10px;
     overflow: hidden;
     background: #fff;
+    
+  
 }
 
 #projects .project img {
     width: 150px;
     height: auto;
     border-radius: 5px;
-}
+} 
