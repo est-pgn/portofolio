@@ -1,4 +1,5 @@
- /* General Reset */
+
+/* General Reset */
 * {
     margin: 0;
     padding: 0;
@@ -7,14 +8,16 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    color: #333;
+    color:rgb(29, 27, 27) ;
     line-height: 1.6;
+    background-color:#d0d0d0; 
+    text-align: center;
 }
 
 header {
-    background: #222;
+    background: #2b2b2b;
     color: #fff;
-    padding: 20px 0;
+    padding: 20px 50px;
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -22,7 +25,7 @@ header {
 
 header nav ul {
     display: flex;
-    justify-content: center;
+    justify-content: right;
     list-style: none;
     gap: 20px;
 }
@@ -72,6 +75,17 @@ header nav ul li a:hover {
     background: rgb(146, 138, 138);
 } ;
 
+/* Educație si abilitati */
+#skills {
+    padding: 50px;
+}
+
+.skill-item {
+    margin: 20px auto;
+    width: 50%;
+    padding: 10px;
+    border-bottom: 1px solid #0e0d0d;
+}
 
 /* Projects Section */
 #projects {
@@ -81,7 +95,7 @@ header nav ul li a:hover {
 }
 
 .project {
-    margin: 20px 0;
+    margin: 20px 20px;
     border: 1px solid #ddd;
     border-radius: 10px;
     overflow: hidden;
@@ -96,36 +110,6 @@ header nav ul li a:hover {
     border-radius: 5px;
 }
 
-/* Skills Section */
-#skills {
-    background: #f4f4f4;
-    padding: 50px;
-    text-align: center;
-}
-
-.skill {
-    margin: 10px 0;
-}
-
-.skill-bar {
-    background: #ddd;
-    border-radius: 5px;
-    overflow: hidden;
-    height: 10px;
-    width: 80%;
-    margin: 5px auto;
-}
-
-
-/* Footer */
-footer {
-    background: #222;
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
-}
-
-
 #projects .project {
     display: flex;
     flex-wrap: wrap;
@@ -134,13 +118,30 @@ footer {
     border: 1px solid black;
     border-radius: 10px;
     overflow: hidden;
-    background: #fff;
-    
-  
+    background: white; 
 }
 
 #projects .project img {
     width: 150px;
     height: auto;
     border-radius: 5px;
-} 
+}
+
+
+
+/* Contact */
+
+#contact {
+    text-align: center;
+    padding: 20px 20px;
+}
+
+
+
+/* Footer */
+footer {
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 20px 20px;
+}
